@@ -1,2 +1,94 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<% provide(:title, "Home") %>
+
+<div class="main">
+
+	<h1>My Projects</h1>
+
+<!-- 1 ///////////////////////////////////////////////////////////////////////////// -->
+
+	<div class="row">
+		<h4 class="col-md-6">3D Printed House</h4>
+	</div>
+	<div class="row">
+		<section class="col-md-2">
+			<%= link_to image_tag("thumbnails/house_thumbnail.jpg", :alt => "House Drawing", class: "thumbnail"), '#' %>
+		</section>
+		<section class="col-md-10">
+			<p>A 3D printed scale model. Created Google Sketchup and AutoCAD and printed on Printr Bot 3d printer.</p>
+			<p><%= link_to "See Project", '#' %></p>
+		</section>
+	</div>
+
+<!-- 2 Shelf ///////////////////////////////////////////////////////////////////////////// -->
+
+	<hr>
+	<div class="row">
+		<h4 class="col-md-6">A Simple Shelf</h4>
+	</div>
+	<div class="row">
+		<section class="col-md-2">
+			<%= link_to image_tag("thumbnails/shelf_thumbnail.jpg", alt: "Shelf Drawing", class: "thumbnail"), '#' %>
+		</section>
+		<section class="col-md-10 desc">
+			<p>CAD model drawn in AutoDesk's Fusion 360 and then constructed using custom CNC router</p>
+			<p><%= link_to "See Project", '#' %></p>
+		</section>
+	</div>
+
+	<hr>
+<!-- 3 TopoMap ///////////////////////////////////////////////////////////////////////////// -->
+
+	<div class="row">
+		<h4 class="col-md-6">3D Topo Model of Annadel State Park</h4>
+	</div>
+	<div class="row">
+		<section class="col-md-2">
+			<%= link_to image_tag("thumbnails/annadel_thumbnail.png", alt: "Contour map of Annadel", class: "thumbnail"), '#' %>
+		</section>
+		<section class="col-md-10 desc">
+			<p>Created in Fusion 360 and printed on the Rostock Max Delta 3D Printer.</p>
+			<p><%= link_to "See Project", '#' %></p>
+		</section>
+	</div>
+
+	<hr>
+
+<!-- Shed ///////////////////////////////////////////////////////////////////////////// -->
+
+	<div class="row">
+		<h4 class="col-md-6">Storage Shed</h4>
+	</div>
+	<div class="row">
+		<section class="col-md-2">
+			<%= link_to image_tag("thumbnails/shed_thumbnail.jpg", alt: "Profile pic", class: "thumbnail"), '#' %>
+		</section>
+		<section class="col-md-10 desc">
+			<p>Designed and drawn with Google SketchUp before the first piece of wood was cut.</p>
+			<p><%= link_to "See Project", '#' %></p>
+		</section>
+	</div>
+
+	<hr>
+
+<!-- CNC Router ///////////////////////////////////////////////////////////////////////////// -->
+
+	<div class="row">
+		<h4 class="col-md-6">CNC Wood Router</h4>
+	</div>
+	<div class="row">
+		<section class="col-md-2">
+			<%= link_to image_tag("profile_pic.jpg", alt: "Profile pic", size: "100x100", class: "thumbnail"), '#' %>
+		</section>
+		<section class="col-md-10 desc">
+	<!-- <p>I designed this router using AutoDesk Inventor and built it in my garage. </p> -->
+		<p>Coming Soon </p>
+
+		</section>
+	</div>
+
+</div>
+
+
+
+
+
