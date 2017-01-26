@@ -1,2 +1,13 @@
-<h1>StaticPages#contact</h1>
-<p>Find me in app/views/static_pages/contact.html.erb</p>
+<% provide(:title, 'Contact') %>
+
+<p>
+<h2>Contact Me</h2>
+<p>
+	<ul>
+		<li><strong>Email:</strong> <%= mail_to "ericbooker12@gmail.com"%></li>
+		<li><%= link_to "Linkedin", 'https://www.linkedin.com/in/eric-booker-29232350'%></li>
+		<li><%= link_to "GitHub", 'https://GitHub: www.github.com/ericbooker12'%></li>
+		<li><%= link_to "Resume", 'https://resume.creddle.io/resume/2tc1cytk962'%></li>
+		<li><strong>Phone:</strong> (415) 374-4012</li>
+	</ul>
+</p>
