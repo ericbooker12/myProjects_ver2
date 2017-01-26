@@ -1,1 +1,75 @@
-house.html.erb
+<div class="container" id="shelf" >
+	<div class="row">
+		<div class="col-md-12">
+			<h2 class="page-header">Small Shelf</h2>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-md-6">
+			<%= image_tag("shelf/shelf_500px.jpg", size: "500x343", alt: "Shelf Drawing")%>
+		</div>
+
+		<div class="col-md-6">
+			<h2>Project Description</h2>
+				<p>I designed this shelf using Autodesk's Fusion 360. It is composed of 4 components and put together as an assembly witin the program. Fusion 360 allows conversion of drawings to G-gode which I used to cut out the pieces on my CNC Router.</p>
+
+			<h2>Tools Used</h2>
+			<ul>
+				<li>AutoDesk Fusion 360</li>
+				<li>Custom CNC Router</li>
+			</ul>
+
+		</div>
+	</div>
+
+	<!-- Related Projects Row -->
+	<div class="row">
+		<div class="col-md-12">
+			<h4 class="page-header">Project Video and Photos</h4>
+		</div>
+	</div><!-- /.row -->
+
+	<div class="row">
+
+		<div class="col-md-4 col-xs-4">
+			<figure>
+				<%= image_tag("shelf/shelf_3.JPG", class: "img-responsive", alt: "Annadel Model")%>
+				<figcaption>CNC shelf mounted to wall.</figcaption>
+			</figure>
+		</div>
+
+		<div class="col-md-4 col-xs-4">
+			<figure>
+				<%= image_tag("shelf/shelf_2.JPG", class: "img-responsive", alt: "Annadel Model")%>
+				<figcaption>CNC shelf holding a growler.</figcaption>
+			</figure>
+		</div>
+
+		<div class="col-md-4 col-xs-4">
+			<figure>
+				<%= image_tag("shelf/shelf_6.JPG", class: "img-responsive", alt: "Annadel Model")%>
+				<figcaption>CNC shelf bottom view.</figcaption>
+			</figure>
+		</div>
+
+	</div><!-- /.row -->
+
+	<hr>
+
+		<div class="row">
+			<div class="col-md-6 col-xs-6">
+				<iframe width="500" height="281.25"
+					src="https://www.youtube.com/embed/hmi13LqFc6k">
+				</iframe>
+			</div>
+		</div>
+
+			<p>Time lapse video of the router in action.</p>
+</div>
+
+
+
+
+

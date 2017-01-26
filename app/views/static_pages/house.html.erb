@@ -1,1 +1,104 @@
+<div class="house" >
+	<div class="row">
+		<div class="col-md-12">
+			<h1 class="page-header">A 3D Printed House
+				<!-- <small>Item Subheading</small> -->
+			</h1>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-8">
+			<%= image_tag("house/House_Drawing.jpg", class: "img-responsive", alt: "CAD Drawing of House")%>
+		</div>
+
+		<div class="col-md-4">
+			<h3>Project Description</h3>
+				<p>This is a model of the house in which I am currently living. I took  detailed measurements through-out the hose before drawing it in Google SketchUp. Because of the version of SketchUp that I was using, I wasn't able to export it to a 3D printable file so I transfered the floor plan to AutoCAD, and redrew a much simplified version. From there I exported the drawing as an stl file for printing. I divided the drawing ointo 4 separate pieces because of the size constraints of the printer. The four pieces were glued together after printing.</p>
+
+			<h3>Tools Used</h3>
+			<ul>
+				<li>Google SketchUp</li>
+				<li>AutoCAD</li>
+				<li>Printr Bot 3D Printer</li>
+
+			</ul>
+		</div>
+	</div>
+	<!-- /.row -->
+
+	<!-- Related Projects Row -->
+	<div class="row">
+		<div class="col-md-12">
+			<h4 class="page-header">Photos</h4>
+		</div>
+
+	</div>
+	<!-- /.row -->
+
+	<div class="row">
+		<div class="col-md-5 col-xs-5">
+			<%= image_tag("house/house_with_roof_A.jpg",id:"img1", class: "img-responsive portfolio-item show", alt: "Model of house")%>
+
+			<%= image_tag("house/house_with_roof_B.jpg", id:"img2", class: "img-responsive portfolio-item hidden", alt: "Drawing of house")%>
+		</div>
+
+		<div class="col-md-7 col-xs-7">
+			<p>An isometric view of the printed model with the removable roof pieces attached.</p>
+
+			<div id="change-image">
+			<%= link_to "Toggle CAD/3D Print", '#', class: "btn btn-info", id: "img-btn-1" %>
+			</div>
+		</div>
+	</div>
+	<!-- /.row -->
+
+	<div class="row">
+		<div class="col-md-5 col-xs-5">
+			<%= image_tag("house/house_no_roof_A.jpg", id:"img3", class: "img-responsive portfolio-item show", alt: "Model of house without roof")%>
+
+			<%= image_tag("house/house_no_roof_B.jpg", id:"img4", class: "img-responsive portfolio-item hidden", alt: "Drawing of house without roof")%>
+		</div>
+
+		<div class="col-md-7 col-xs-7">
+			<p>The same isometric view with the roof removes to show the details inside of the house.</p>
+			<div id="change-image">
+			<%= link_to "Toggle CAD/3D Print", '#', class: "btn btn-info", id: "img-btn-2" %>
+			</div>
+		</div>
+	</div>
+	<!-- /.row -->
+
+	<div class="row">
+		<div class="col-md-5 col-xs-5">
+			<%= image_tag("house/floor_plan_2A.jpg", id:"img5", class: "img-responsive portfolio-item show", alt: "Floor plan alternate view")%>
+
+			<%= image_tag("house/floor_plan_2B.jpg", id:"img6", class: "img-responsive portfolio-item hidden", alt: "Floor plan alternate view drawing")%>
+		</div>
+
+		<div class="col-md-7 col-xs-7">
+			<p>A floor plan view that shows the layout.</p>
+			<div id="change-image">
+			<%= link_to "Toggle CAD/3D Print", '#', class: "btn btn-info hidden-md-down", id: "img-btn-3" %>
+			</div>
+		</div>
+	</div>
+	<!-- /.row -->
+
+	<div class="row">
+		<div class="col-md-5 col-xs-5">
+			<%= image_tag("house/floor_plan_A.jpg", id:"img7", class: "img-responsive portfolio-item show hidden-sm-down", alt: "Floor plan view")%>
+
+			<%= image_tag("house/floor_plan_B.jpg", id:"img8", class: "img-responsive portfolio-item hidden hidden-sm-down", alt: "Floor plan view drawing")%>
+		</div>
+
+		<div class="col-md-7 col-xs-7">
+			<p>An alternate floorplan view.</p>
+			<div id="change-image">
+			<%= link_to "Toggle CAD/3D Print", '#', class: "btn btn-info hidden-md-down", id: "img-btn-4" %>
+			</div>
+		</div>
+	</div>
+<!-- /.row -->
+</div>
 house.html.erb
