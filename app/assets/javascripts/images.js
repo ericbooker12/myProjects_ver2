@@ -9,8 +9,8 @@ $( document ).ready(function() {
 });
 
 var changeImage = function(btn, img1, img2) {
-	$(btn).on('click', function(e){
-		e.preventDefault();
+	$(btn).on('click', function(event){
+		event.preventDefault();
 		console.log( "Button Clicked" );
 
 		if ($(img1).hasClass('show')) {
