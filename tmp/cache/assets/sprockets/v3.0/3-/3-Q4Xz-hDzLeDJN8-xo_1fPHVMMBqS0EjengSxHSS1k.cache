@@ -1,0 +1,30 @@
+{:uriI"file://app/assets/javascripts/images.js.html?type=text/html&id=a27da9761dfc1359e46682ebb36b64649a2f8426b6c6c8f12a088426f00b9c97:ET:load_pathI"app/assets/javascripts;T:filenameI"*app/assets/javascripts/images.js.html;T:	nameI"images.js;T:logical_pathI"images.js.html;T:content_typeI"text/html;T:sourceI"Ï// $( document ).ready(function() {
+//     console.log( "ready!3" );
+
+// 	changeImage('#img-btn-1', '#img1', '#img2');
+// 	changeImage('#img-btn-2', '#img3', '#img4');
+// 	changeImage('#img-btn-3', '#img5', '#img6');
+// 	changeImage('#img-btn-4', '#img7', '#img8');
+
+// });
+
+// var changeImage = function(btn, img1, img2) {
+// 	$(btn).on('click', function(event){
+// 		event.preventDefault();
+// 		console.log( "Button Clicked" );
+
+// 		if ($(img1).hasClass('show')) {
+// 			$(img1).removeClass('show').addClass('hidden');
+// 			$(img2).removeClass('hidden').addClass('show');
+// 		} else {
+// 			$(img2).removeClass('show').addClass('hidden');
+// 			$(img1).removeClass('hidden').addClass('show');
+// 		}
+// 	});
+// }
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"8file-digest://app/assets/javascripts/images.js.html;TTF:charsetI"
+utf-8;F:digest"%¯Ý¡å<âÂsÿeôÇ›îMltœ™¶Û«ê]…_¹Â¢:lengthiÏ:dependencies_digest"%Øs(®ç´}œûPš
+Ï¹Ÿ¾Éw€ÖHò{+´l:idI"Ea27da9761dfc1359e46682ebb36b64649a2f8426b6c6c8f12a088426f00b9c97;F:
+mtimel+I:žX
