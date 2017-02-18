@@ -8095,3 +8095,13 @@ Processing by StaticPagesController#house as HTML
 Completed 200 OK in 35ms (Views: 32.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/house" for ::1 at 2017-02-10 14:39:51 -0800
+Processing by StaticPagesController#house as HTML
+  Rendering static_pages/house.html.erb within layouts/application
+  Rendered static_pages/house.html.erb within layouts/application (9.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
